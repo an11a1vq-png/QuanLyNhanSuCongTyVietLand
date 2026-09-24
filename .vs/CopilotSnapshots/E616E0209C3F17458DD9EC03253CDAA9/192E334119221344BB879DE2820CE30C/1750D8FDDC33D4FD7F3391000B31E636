@@ -1,0 +1,19 @@
+﻿using System;
+
+namespace testai.DTOs
+{
+    /// <summary>
+    /// DTO mapping với bảng EmailLogs trên Supabase
+    /// Đại diện cho lịch sử gửi email của hệ thống
+    /// </summary>
+    [Serializable]
+    public class EmailLogDTO
+    {
+        public int EmailLogId { get; set; }
+        public string Subject { get; set; }
+        public string Content { get; set; }
+        public string Receiver { get; set; }
+        public DateTime SentAt { get; set; }
+        public string Status { get; set; } // Success, Failed
+    }
+}

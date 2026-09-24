@@ -1,0 +1,269 @@
+﻿namespace testai
+{
+    partial class FrmLogin
+    {
+        private System.ComponentModel.IContainer components = null;
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        private void InitializeComponent()
+        {
+            this.PnlContainer = new Guna.UI2.WinForms.Guna2Panel();
+            this.PnlLeft = new Guna.UI2.WinForms.Guna2Panel();
+            this.LblWelcome = new System.Windows.Forms.Label();
+            this.PbLogo = new System.Windows.Forms.PictureBox();
+            this.PnlRight = new Guna.UI2.WinForms.Guna2Panel();
+            this.ChkShowPassword = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.BtnExit = new Guna.UI2.WinForms.Guna2Button();
+            this.BtnReset = new Guna.UI2.WinForms.Guna2Button();
+            this.BtnLogin = new Guna.UI2.WinForms.Guna2Button();
+            this.TxtPassword = new Guna.UI2.WinForms.Guna2TextBox();
+            this.TxtUsername = new Guna.UI2.WinForms.Guna2TextBox();
+            this.LblPassword = new System.Windows.Forms.Label();
+            this.LblUsername = new System.Windows.Forms.Label();
+            this.LblTitle = new System.Windows.Forms.Label();
+            this.PnlContainer.SuspendLayout();
+            this.PnlLeft.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PbLogo)).BeginInit();
+            this.PnlRight.SuspendLayout();
+            this.SuspendLayout();
+
+            // PnlContainer
+            this.PnlContainer.BackColor = System.Drawing.Color.White;
+            this.PnlContainer.Controls.Add(this.PnlRight);
+            this.PnlContainer.Controls.Add(this.PnlLeft);
+            this.PnlContainer.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PnlContainer.Location = new System.Drawing.Point(0, 0);
+            this.PnlContainer.Name = "PnlContainer";
+            this.PnlContainer.Size = new System.Drawing.Size(900, 500);
+            this.PnlContainer.TabIndex = 0;
+
+            // PnlLeft (Background left side)
+            this.PnlLeft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((byte)(94)))); // Dark blue
+            this.PnlLeft.Controls.Add(this.LblWelcome);
+            this.PnlLeft.Controls.Add(this.PbLogo);
+            this.PnlLeft.Dock = System.Windows.Forms.DockStyle.Left;
+            this.PnlLeft.Location = new System.Drawing.Point(0, 0);
+            this.PnlLeft.Name = "PnlLeft";
+            this.PnlLeft.Size = new System.Drawing.Size(350, 500);
+            this.PnlLeft.TabIndex = 0;
+
+            // PbLogo
+            this.PbLogo.BackColor = System.Drawing.Color.Transparent;
+            this.PbLogo.Location = new System.Drawing.Point(110, 100);
+            this.PbLogo.Name = "PbLogo";
+            this.PbLogo.Size = new System.Drawing.Size(130, 130);
+            this.PbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PbLogo.TabIndex = 1;
+            this.PbLogo.TabStop = false;
+            // this.PbLogo.Image = Image.FromFile("path/to/logo.png"); // Thêm logo nếu có
+
+            // LblWelcome
+            this.LblWelcome.AutoSize = true;
+            this.LblWelcome.BackColor = System.Drawing.Color.Transparent;
+            this.LblWelcome.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.LblWelcome.ForeColor = System.Drawing.Color.White;
+            this.LblWelcome.Location = new System.Drawing.Point(20, 260);
+            this.LblWelcome.Name = "LblWelcome";
+            this.LblWelcome.Size = new System.Drawing.Size(310, 41);
+            this.LblWelcome.TabIndex = 0;
+            this.LblWelcome.Text = "HRMS System";
+
+            // PnlRight (Login form)
+            this.PnlRight.BackColor = System.Drawing.Color.White;
+            this.PnlRight.Controls.Add(this.ChkShowPassword);
+            this.PnlRight.Controls.Add(this.BtnExit);
+            this.PnlRight.Controls.Add(this.BtnReset);
+            this.PnlRight.Controls.Add(this.BtnLogin);
+            this.PnlRight.Controls.Add(this.TxtPassword);
+            this.PnlRight.Controls.Add(this.TxtUsername);
+            this.PnlRight.Controls.Add(this.LblPassword);
+            this.PnlRight.Controls.Add(this.LblUsername);
+            this.PnlRight.Controls.Add(this.LblTitle);
+            this.PnlRight.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PnlRight.Location = new System.Drawing.Point(350, 0);
+            this.PnlRight.Name = "PnlRight";
+            this.PnlRight.Size = new System.Drawing.Size(550, 500);
+            this.PnlRight.TabIndex = 1;
+
+            // LblTitle
+            this.LblTitle.AutoSize = true;
+            this.LblTitle.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.LblTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((byte)(94))));
+            this.LblTitle.Location = new System.Drawing.Point(50, 40);
+            this.LblTitle.Name = "LblTitle";
+            this.LblTitle.Size = new System.Drawing.Size(150, 45);
+            this.LblTitle.TabIndex = 0;
+            this.LblTitle.Text = "Đăng Nhập";
+
+            // LblUsername
+            this.LblUsername.AutoSize = true;
+            this.LblUsername.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.LblUsername.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(140)))), ((int)(((byte)(141)))));
+            this.LblUsername.Location = new System.Drawing.Point(50, 130);
+            this.LblUsername.Name = "LblUsername";
+            this.LblUsername.Size = new System.Drawing.Size(91, 20);
+            this.LblUsername.TabIndex = 1;
+            this.LblUsername.Text = "Tên Đăng Nhập";
+
+            // TxtUsername
+            this.TxtUsername.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(219)))), ((int)(((byte)(219)))));
+            this.TxtUsername.BorderRadius = 8;
+            this.TxtUsername.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.TxtUsername.DefaultText = "";
+            this.TxtUsername.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.TxtUsername.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.TxtUsername.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
+            this.TxtUsername.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
+            this.TxtUsername.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TxtUsername.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.TxtUsername.ForeColor = System.Drawing.Color.Black;
+            this.TxtUsername.Location = new System.Drawing.Point(50, 160);
+            this.TxtUsername.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtUsername.Name = "TxtUsername";
+            this.TxtUsername.PasswordChar = '\0';
+            this.TxtUsername.PlaceholderText = "Nhập tên đăng nhập";
+            this.TxtUsername.SelectedText = "";
+            this.TxtUsername.Size = new System.Drawing.Size(450, 40);
+            this.TxtUsername.TabIndex = 2;
+
+            // LblPassword
+            this.LblPassword.AutoSize = true;
+            this.LblPassword.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.LblPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(140)))), ((int)(((byte)(141)))));
+            this.LblPassword.Location = new System.Drawing.Point(50, 225);
+            this.LblPassword.Name = "LblPassword";
+            this.LblPassword.Size = new System.Drawing.Size(76, 20);
+            this.LblPassword.TabIndex = 3;
+            this.LblPassword.Text = "Mật Khẩu";
+
+            // TxtPassword
+            this.TxtPassword.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(219)))), ((int)(((byte)(219)))));
+            this.TxtPassword.BorderRadius = 8;
+            this.TxtPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.TxtPassword.DefaultText = "";
+            this.TxtPassword.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.TxtPassword.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.TxtPassword.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
+            this.TxtPassword.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
+            this.TxtPassword.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TxtPassword.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.TxtPassword.ForeColor = System.Drawing.Color.Black;
+            this.TxtPassword.Location = new System.Drawing.Point(50, 255);
+            this.TxtPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtPassword.Name = "TxtPassword";
+            this.TxtPassword.PasswordChar = '•';
+            this.TxtPassword.PlaceholderText = "Nhập mật khẩu";
+            this.TxtPassword.SelectedText = "";
+            this.TxtPassword.Size = new System.Drawing.Size(450, 40);
+            this.TxtPassword.TabIndex = 4;
+            this.TxtPassword.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtPassword_KeyPress);
+
+            // ChkShowPassword
+            this.ChkShowPassword.AutoSize = true;
+            this.ChkShowPassword.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ChkShowPassword.CheckedState.BorderRadius = 3;
+            this.ChkShowPassword.CheckedState.BorderThickness = 0;
+            this.ChkShowPassword.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ChkShowPassword.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.ChkShowPassword.Location = new System.Drawing.Point(50, 310);
+            this.ChkShowPassword.Name = "ChkShowPassword";
+            this.ChkShowPassword.Size = new System.Drawing.Size(123, 23);
+            this.ChkShowPassword.TabIndex = 5;
+            this.ChkShowPassword.Text = "Hiển thị mật khẩu";
+            this.ChkShowPassword.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.ChkShowPassword.UncheckedState.BorderRadius = 3;
+            this.ChkShowPassword.UncheckedState.BorderThickness = 0;
+            this.ChkShowPassword.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.ChkShowPassword.CheckedChanged += new System.EventHandler(this.ChkShowPassword_CheckedChanged);
+
+            // BtnLogin
+            this.BtnLogin.BorderRadius = 8;
+            this.BtnLogin.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.BtnLogin.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.BtnLogin.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtnLogin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BtnLogin.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(239)))));
+            this.BtnLogin.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.BtnLogin.ForeColor = System.Drawing.Color.White;
+            this.BtnLogin.Location = new System.Drawing.Point(50, 370);
+            this.BtnLogin.Name = "BtnLogin";
+            this.BtnLogin.Size = new System.Drawing.Size(140, 45);
+            this.BtnLogin.TabIndex = 6;
+            this.BtnLogin.Text = "ĐĂNG NHẬP";
+            this.BtnLogin.Click += new System.EventHandler(this.BtnLogin_Click);
+
+            // BtnReset
+            this.BtnReset.BorderRadius = 8;
+            this.BtnReset.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.BtnReset.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.BtnReset.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtnReset.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BtnReset.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(140)))), ((int)(((byte)(141)))));
+            this.BtnReset.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.BtnReset.ForeColor = System.Drawing.Color.White;
+            this.BtnReset.Location = new System.Drawing.Point(220, 370);
+            this.BtnReset.Name = "BtnReset";
+            this.BtnReset.Size = new System.Drawing.Size(140, 45);
+            this.BtnReset.TabIndex = 7;
+            this.BtnReset.Text = "RESET";
+            this.BtnReset.Click += new System.EventHandler(this.BtnReset_Click);
+
+            // BtnExit
+            this.BtnExit.BorderRadius = 8;
+            this.BtnExit.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.BtnExit.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.BtnExit.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtnExit.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BtnExit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
+            this.BtnExit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.BtnExit.ForeColor = System.Drawing.Color.White;
+            this.BtnExit.Location = new System.Drawing.Point(390, 370);
+            this.BtnExit.Name = "BtnExit";
+            this.BtnExit.Size = new System.Drawing.Size(110, 45);
+            this.BtnExit.TabIndex = 8;
+            this.BtnExit.Text = "THOÁT";
+            this.BtnExit.Click += new System.EventHandler(this.BtnExit_Click);
+
+            // FrmLogin
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(900, 500);
+            this.Controls.Add(this.PnlContainer);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "FrmLogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "HRMS - Đăng Nhập";
+            this.Load += new System.EventHandler(this.FrmLogin_Load);
+            this.PnlContainer.ResumeLayout(false);
+            this.PnlLeft.ResumeLayout(false);
+            this.PnlLeft.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PbLogo)).EndInit();
+            this.PnlRight.ResumeLayout(false);
+            this.PnlRight.PerformLayout();
+            this.ResumeLayout(false);
+        }
+
+        private Guna.UI2.WinForms.Guna2Panel PnlContainer;
+        private Guna.UI2.WinForms.Guna2Panel PnlLeft;
+        private Guna.UI2.WinForms.Guna2Panel PnlRight;
+        private System.Windows.Forms.Label LblWelcome;
+        private System.Windows.Forms.PictureBox PbLogo;
+        private System.Windows.Forms.Label LblTitle;
+        private System.Windows.Forms.Label LblUsername;
+        private Guna.UI2.WinForms.Guna2TextBox TxtUsername;
+        private System.Windows.Forms.Label LblPassword;
+        private Guna.UI2.WinForms.Guna2TextBox TxtPassword;
+        private Guna.UI2.WinForms.Guna2CheckBox ChkShowPassword;
+        private Guna.UI2.WinForms.Guna2Button BtnLogin;
+        private Guna.UI2.WinForms.Guna2Button BtnReset;
+        private Guna.UI2.WinForms.Guna2Button BtnExit;
+    }
+}

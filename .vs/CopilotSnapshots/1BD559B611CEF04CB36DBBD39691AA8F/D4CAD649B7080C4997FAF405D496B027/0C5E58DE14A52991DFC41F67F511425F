@@ -1,0 +1,61 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace testai.Forms
+{
+    public partial class FrmLogin : Form
+    {
+        // Controls
+        private System.Windows.Forms.Label lblEmail;
+        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.Label lblPassword;
+        private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.Button btnLogin;
+        private System.Windows.Forms.Label lblMessage;
+
+        private readonly BLL.AccountBLL _accountBLL = new BLL.AccountBLL();
+
+        public FrmLogin()
+        {
+            InitializeComponent();
+        }
+
+        private async void btnLogin_Click(object? sender, EventArgs e)
+        {
+            lblMessage.Text = string.Empty;
+            btnLogin.Enabled = false;
+
+            var email = txtEmail.Text.Trim();
+            var password = txtPassword.Text;
+
+            var result = await _accountBLL.LoginAsync(email, password);
+            if (!result.Success)
+            {
+                lblMessage.Text = result.Message;
+                btnLogin.Enabled = true;
+                return;
+            }
+
+            // Mở Dashboard
+            var dashboard = new FrmDashboard();
+            dashboard.FormClosed += (s, args) =>
+            {
+                // khi dashboard đóng, nếu vẫn chưa logout thì exit app
+                if (!SessionManager.IsLoggedIn)
+                    this.Show();
+                else
+                    Application.Exit();
+            };
+
+            this.Hide();
+            dashboard.Show();
+        }
+    }
+}

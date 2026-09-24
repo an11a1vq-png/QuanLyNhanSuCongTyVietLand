@@ -1,0 +1,9 @@
+D:\HRM\VietLandHR.pdb
+D:\HRM\D3DCompiler_47_cor3.dll
+D:\HRM\PenImc_cor3.dll
+D:\HRM\PresentationNative_cor3.dll
+D:\HRM\vcruntime140_cor3.dll
+D:\HRM\wpfgfx_cor3.dll
+D:\HRM\libHarfBuzzSharp.dll
+D:\HRM\libSkiaSharp.dll
+D:\HRM\VietLandHR.exe

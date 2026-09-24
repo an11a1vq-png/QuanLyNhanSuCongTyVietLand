@@ -1,0 +1,55 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace testai.Forms
+{
+    public partial class FrmDashboard : Form
+    {
+        // Controls
+        private System.Windows.Forms.MenuStrip menuStrip;
+        private System.Windows.Forms.ToolStripMenuItem mnuAdmin;
+        private System.Windows.Forms.ToolStripMenuItem mnuManage;
+        private System.Windows.Forms.ToolStripMenuItem mnuProfile;
+        private System.Windows.Forms.Label lblWelcome;
+        private System.Windows.Forms.Button btnLogout;
+
+        public FrmDashboard()
+        {
+            InitializeComponent();
+            LoadSessionInfo();
+        }
+
+        private void LoadSessionInfo()
+        {
+            if (SessionManager.CurrentAccount != null)
+            {
+                var username = SessionManager.CurrentAccount.Username;
+                var role = SessionManager.CurrentRoleName ?? "Employee";
+                lblWelcome.Text = $"Xin chào, {username} ({role})";
+
+                // Enable admin menu if user is admin
+                mnuAdmin.Enabled = SessionManager.IsAdmin;
+            }
+            else
+            {
+                lblWelcome.Text = "Xin chào";
+            }
+        }
+
+        private async void btnLogout_Click(object? sender, EventArgs e)
+        {
+            var bll = new BLL.AccountBLL();
+            await bll.LogoutAsync();
+            SessionManager.ClearSession();
+            this.Close();
+            Application.Restart();
+        }
+    }
+}

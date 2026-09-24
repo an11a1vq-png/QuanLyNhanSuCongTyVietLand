@@ -1,0 +1,22 @@
+﻿using System;
+using Supabase.Postgrest.Models;
+
+namespace testai.DTOs
+{
+    /// <summary>
+    /// DTO mapping với bảng Positions trên Supabase
+    /// Đại diện cho các vị trí công việc (Quản lý, Nhân viên, ...)
+    /// </summary>
+    [Serializable]
+    public class PositionDTO : BaseModel
+    {
+        [Postgrest.Attributes.Column("position_id")]
+        public int PositionId { get; set; }
+
+        [Postgrest.Attributes.Column("position_name")]
+        public string PositionName { get; set; }
+
+        [Postgrest.Attributes.Column("base_salary")]
+        public decimal BaseSalary { get; set; }
+    }
+}

@@ -1,0 +1,47 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace testai.Forms.Employees
+{
+    public partial class FrmEmployeeDetail : Form
+    {
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblName;
+        private Guna.UI2.WinForms.Guna2TextBox txtName;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblEmail;
+        private Guna.UI2.WinForms.Guna2TextBox txtEmail;
+        private Guna.UI2.WinForms.Guna2Button btnSave;
+
+        public FrmEmployeeDetail()
+        {
+            InitializeComponent();
+        }
+
+        private async void btnSave_Click(object? sender, EventArgs e)
+        {
+            try
+            {
+                var dto = new DTOs.EmployeeDTO
+                {
+                    FullName = txtName.Text.Trim(),
+                    Email = txtEmail.Text.Trim()
+                };
+
+                var bll = new BLL.EmployeeBLL();
+                await bll.CreateOrUpdateAsync(dto);
+                MessageBox.Show("Lưu thành công.");
+                this.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi lưu: " + ex.Message);
+            }
+        }
+    }
+}

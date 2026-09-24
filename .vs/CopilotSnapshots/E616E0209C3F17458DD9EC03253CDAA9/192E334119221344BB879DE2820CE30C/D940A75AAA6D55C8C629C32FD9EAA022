@@ -1,0 +1,17 @@
+﻿using System;
+using Supabase.Postgrest.Models;
+
+namespace testai.DTOs
+{
+    /// <summary>
+    /// DTO mapping với bảng Departments trên Supabase
+    /// </summary>
+    [Serializable]
+    public class DepartmentDTO : BaseModel
+    {
+        public int DepartmentId { get; set; }
+        public string DepartmentName { get; set; }
+        public int ManagerId { get; set; }
+        public DateTime CreatedAt { get; set; }
+    }
+}

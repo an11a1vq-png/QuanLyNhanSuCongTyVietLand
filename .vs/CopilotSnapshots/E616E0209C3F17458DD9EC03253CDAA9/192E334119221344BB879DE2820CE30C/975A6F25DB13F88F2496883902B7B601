@@ -1,0 +1,32 @@
+﻿using System;
+using Supabase.Postgrest.Models;
+using Postgrest.Attributes;
+
+namespace testai.DTOs
+{
+    /// <summary>
+    /// DTO mapping với bảng RegistrationRequests trên Supabase
+    /// Đại diện cho các yêu cầu đăng ký tài khoản mới
+    /// </summary>
+    [Serializable]
+    public class RegistrationRequestDTO : BaseModel
+    {
+        [Postgrest.Attributes.Column("request_id")]
+        public int RequestId { get; set; }
+
+        [Postgrest.Attributes.Column("username")]
+        public string Username { get; set; }
+
+        [Postgrest.Attributes.Column("password_hash")]
+        public string PasswordHash { get; set; }
+
+        [Postgrest.Attributes.Column("full_name")]
+        public string FullName { get; set; }
+
+        [Postgrest.Attributes.Column("status")]
+        public string Status { get; set; } // Pending, Approved, Rejected
+
+        [Postgrest.Attributes.Column("created_at")]
+        public DateTime CreatedAt { get; set; }
+    }
+}

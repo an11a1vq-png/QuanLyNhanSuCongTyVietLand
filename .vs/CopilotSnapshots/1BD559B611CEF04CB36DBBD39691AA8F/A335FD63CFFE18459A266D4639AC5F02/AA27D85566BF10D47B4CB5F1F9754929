@@ -1,0 +1,46 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace testai.Forms.LeaveRequests
+{
+    public partial class FrmLeaveRequestList : Form
+    {
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblTitle;
+        private Guna.UI2.WinForms.Guna2Button btnNew;
+        private Guna.UI2.WinForms.Guna2DataGridView dgvList;
+
+        public FrmLeaveRequestList()
+        {
+            InitializeComponent();
+            LoadData();
+        }
+
+        private async void LoadData()
+        {
+            try
+            {
+                var bll = new BLL.LeaveRequestBLL();
+                var list = await bll.GetByUserAsync(SessionManager.CurrentAccount?.UserId ?? Guid.Empty);
+                dgvList.DataSource = list;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi tải đơn nghỉ: " + ex.Message);
+            }
+        }
+
+        private void btnNew_Click(object? sender, EventArgs e)
+        {
+            var form = new FrmLeaveRequestForm();
+            form.ShowDialog();
+            LoadData();
+        }
+    }
+}

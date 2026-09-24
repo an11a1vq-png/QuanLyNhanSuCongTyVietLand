@@ -1,0 +1,196 @@
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\VietLandHR.exe
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\VietLandHR.deps.json
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\VietLandHR.runtimeconfig.json
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\VietLandHR.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\VietLandHR.pdb
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\BCrypt-Net-Next.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\BouncyCastle.Cryptography.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\ClosedXML.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\DocumentFormat.OpenXml.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\ExcelNumberFormat.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\Guna.UI2.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\HarfBuzzSharp.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\Irony.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\LiveChartsCore.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\LiveChartsCore.SkiaSharpView.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\LiveChartsCore.SkiaSharpView.WinForms.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\MailKit.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\MimeKit.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\MimeMapping.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\Newtonsoft.Json.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\OpenTK.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\OpenTK.GLControl.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\SixLabors.Fonts.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\SkiaSharp.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\SkiaSharp.HarfBuzz.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\SkiaSharp.Views.Desktop.Common.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\SkiaSharp.Views.WindowsForms.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\Supabase.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\Supabase.Core.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\Supabase.Functions.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\Supabase.Gotrue.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\Supabase.Postgrest.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\Supabase.Realtime.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\Supabase.Storage.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\System.Management.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\System.Reactive.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\Websocket.Client.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\XLParser.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\runtimes\osx\native\libHarfBuzzSharp.dylib
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\runtimes\win-x64\native\libHarfBuzzSharp.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\runtimes\win-x86\native\libHarfBuzzSharp.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\runtimes\osx\native\libSkiaSharp.dylib
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\runtimes\win-arm64\native\libSkiaSharp.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\runtimes\win-x64\native\libSkiaSharp.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\runtimes\win-x86\native\libSkiaSharp.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+D:\demo\new\testai - Sao chép\bin\Release\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.csproj.AssemblyReference.cache
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.GUI.Dialogs.DanhSachNhanVienPhongBanDialog.resources
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.GUI.Dialogs.DoiMatKhauDialog.resources
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.GUI.Dialogs.GopYDialog.resources
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.GUI.Dialogs.HopDongDialog.resources
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.GUI.Dialogs.NhanVienDialog.resources
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.GUI.Dialogs.PhongBanDialog.resources
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.GUI.Dialogs.SuaChamCongDialog.resources
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.GUI.Dialogs.TaiKhoanDialog.resources
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.GUI.EmployeeDashboard.resources
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.GUI.LoginForm.resources
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.GUI.MainDashboard.resources
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.GUI.Pages.BaoCaoPage.resources
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.GUI.Pages.ChamCongPage.resources
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.GUI.Pages.DashboardHomePage.resources
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.GUI.Pages.DuyetDangKyPage.resources
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.GUI.Pages.Employee.EmpChamCongPage.resources
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.GUI.Pages.Employee.EmpGopYPage.resources
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.GUI.Pages.Employee.EmpHopDongPage.resources
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.GUI.Pages.Employee.EmpLuongPage.resources
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.GUI.Pages.Employee.EmpNghiPhepPage.resources
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.GUI.Pages.Employee.EmpThongTinCaNhanPage.resources
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.GUI.Pages.GopYPage.resources
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.GUI.Pages.HopDongPage.resources
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.GUI.Pages.NghiPhepPage.resources
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.GUI.Pages.NhanVienPage.resources
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.GUI.Pages.PhongBanPage.resources
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.GUI.Pages.TaiKhoanPage.resources
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.GUI.Pages.TinhLuongPage.resources
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.GUI.RegisterForm.resources
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.csproj.GenerateResource.cache
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.GeneratedMSBuildEditorConfig.editorconfig
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.AssemblyInfoInputs.cache
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.AssemblyInfo.cs
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.csproj.CoreCompileInputs.cache
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.csproj.Up2Date
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.dll
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\refint\VietLandHR.dll
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.pdb
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\VietLandHR.genruntimeconfig.cache
+D:\demo\new\testai - Sao chép\obj\Release\net8.0-windows\ref\VietLandHR.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\VietLandHR.exe
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\VietLandHR.deps.json
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\VietLandHR.runtimeconfig.json
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\VietLandHR.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\VietLandHR.pdb
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\BCrypt-Net-Next.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\BouncyCastle.Cryptography.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\ClosedXML.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\DocumentFormat.OpenXml.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\ExcelNumberFormat.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\Guna.UI2.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\HarfBuzzSharp.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\Irony.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\LiveChartsCore.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\LiveChartsCore.SkiaSharpView.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\LiveChartsCore.SkiaSharpView.WinForms.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\MailKit.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\MimeKit.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\MimeMapping.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\Newtonsoft.Json.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\OpenTK.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\OpenTK.GLControl.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\SixLabors.Fonts.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\SkiaSharp.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\SkiaSharp.HarfBuzz.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\SkiaSharp.Views.Desktop.Common.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\SkiaSharp.Views.WindowsForms.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\Supabase.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\Supabase.Core.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\Supabase.Functions.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\Supabase.Gotrue.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\Supabase.Postgrest.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\Supabase.Realtime.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\Supabase.Storage.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\System.Management.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\System.Reactive.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\Websocket.Client.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\XLParser.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\runtimes\osx\native\libHarfBuzzSharp.dylib
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\runtimes\win-x64\native\libHarfBuzzSharp.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\runtimes\win-x86\native\libHarfBuzzSharp.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\runtimes\osx\native\libSkiaSharp.dylib
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\runtimes\win-arm64\native\libSkiaSharp.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\runtimes\win-x64\native\libSkiaSharp.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\runtimes\win-x86\native\libSkiaSharp.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\bin\Release\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.csproj.AssemblyReference.cache
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.GUI.Dialogs.DanhSachNhanVienPhongBanDialog.resources
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.GUI.Dialogs.DoiMatKhauDialog.resources
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.GUI.Dialogs.GopYDialog.resources
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.GUI.Dialogs.HopDongDialog.resources
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.GUI.Dialogs.NhanVienDialog.resources
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.GUI.Dialogs.PhongBanDialog.resources
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.GUI.Dialogs.SuaChamCongDialog.resources
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.GUI.Dialogs.TaiKhoanDialog.resources
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.GUI.EmployeeDashboard.resources
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.GUI.LoginForm.resources
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.GUI.MainDashboard.resources
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.GUI.Pages.BaoCaoPage.resources
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.GUI.Pages.ChamCongPage.resources
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.GUI.Pages.DashboardHomePage.resources
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.GUI.Pages.DuyetDangKyPage.resources
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.GUI.Pages.Employee.EmpChamCongPage.resources
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.GUI.Pages.Employee.EmpGopYPage.resources
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.GUI.Pages.Employee.EmpHopDongPage.resources
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.GUI.Pages.Employee.EmpLuongPage.resources
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.GUI.Pages.Employee.EmpNghiPhepPage.resources
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.GUI.Pages.Employee.EmpThongTinCaNhanPage.resources
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.GUI.Pages.GopYPage.resources
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.GUI.Pages.HopDongPage.resources
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.GUI.Pages.NghiPhepPage.resources
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.GUI.Pages.NhanVienPage.resources
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.GUI.Pages.PhongBanPage.resources
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.GUI.Pages.TaiKhoanPage.resources
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.GUI.Pages.TinhLuongPage.resources
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.GUI.RegisterForm.resources
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.csproj.GenerateResource.cache
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.GeneratedMSBuildEditorConfig.editorconfig
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.AssemblyInfoInputs.cache
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.AssemblyInfo.cs
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.csproj.CoreCompileInputs.cache
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.csproj.Up2Date
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\refint\VietLandHR.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.pdb
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\VietLandHR.genruntimeconfig.cache
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\obj\Release\net8.0-windows\ref\VietLandHR.dll

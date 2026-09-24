@@ -1,0 +1,23 @@
+﻿using System;
+using Supabase.Postgrest.Models;
+using Postgrest.Attributes;
+
+namespace testai.DTOs
+{
+    /// <summary>
+    /// DTO mapping với bảng Roles trên Supabase
+    /// Đại diện cho các vai trò trong hệ thống (Admin, Manager, Employee, ...)
+    /// </summary>
+    [Serializable]
+    public class RoleDTO : BaseModel
+    {
+        [Postgrest.Attributes.Column("role_id")]
+        public int RoleId { get; set; }
+
+        [Postgrest.Attributes.Column("role_name")]
+        public string RoleName { get; set; }
+
+        [Postgrest.Attributes.Column("description")]
+        public string Description { get; set; }
+    }
+}

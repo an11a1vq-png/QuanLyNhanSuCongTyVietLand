@@ -1,0 +1,9 @@
+D:\xuatapp\testai.pdb
+D:\xuatapp\D3DCompiler_47_cor3.dll
+D:\xuatapp\PenImc_cor3.dll
+D:\xuatapp\PresentationNative_cor3.dll
+D:\xuatapp\vcruntime140_cor3.dll
+D:\xuatapp\wpfgfx_cor3.dll
+D:\xuatapp\libHarfBuzzSharp.dll
+D:\xuatapp\libSkiaSharp.dll
+D:\xuatapp\testai.exe

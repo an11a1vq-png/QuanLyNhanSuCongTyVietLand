@@ -1,0 +1,19 @@
+﻿using System;
+
+namespace testai.DTOs
+{
+    /// <summary>
+    /// DTO mapping với bảng Attendance trên Supabase
+    /// Đại diện cho thông tin chấm công nhân viên
+    /// </summary>
+    [Serializable]
+    public class AttendanceDTO
+    {
+        public int AttendanceId { get; set; }
+        public int EmployeeId { get; set; }
+        public DateTime WorkDate { get; set; }
+        public DateTime? CheckIn { get; set; }
+        public DateTime? CheckOut { get; set; }
+        public string Status { get; set; } // Đúng giờ, Muộn, Về sớm
+    }
+}

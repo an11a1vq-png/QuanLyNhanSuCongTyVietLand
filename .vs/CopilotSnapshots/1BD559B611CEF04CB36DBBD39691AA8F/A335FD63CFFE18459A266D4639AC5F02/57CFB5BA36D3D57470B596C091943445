@@ -1,0 +1,51 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace testai.Forms.LeaveRequests
+{
+    public partial class FrmLeaveRequestForm : Form
+    {
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblFrom;
+        private Guna.UI2.WinForms.Guna2DateTimePicker dtpFrom;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblTo;
+        private Guna.UI2.WinForms.Guna2DateTimePicker dtpTo;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblReason;
+        private Guna.UI2.WinForms.Guna2TextBox txtReason;
+        private Guna.UI2.WinForms.Guna2Button btnSubmit;
+
+        public FrmLeaveRequestForm()
+        {
+            InitializeComponent();
+        }
+
+        private async void btnSubmit_Click(object? sender, EventArgs e)
+        {
+            try
+            {
+                var dto = new DTOs.LeaveRequestDTO
+                {
+                    UserId = SessionManager.CurrentAccount?.UserId,
+                    FromDate = dtpFrom.Value,
+                    ToDate = dtpTo.Value,
+                    Reason = txtReason.Text.Trim()
+                };
+
+                var bll = new BLL.LeaveRequestBLL();
+                await bll.CreateAsync(dto);
+                MessageBox.Show("Đã gửi đơn.");
+                this.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi gửi đơn: " + ex.Message);
+            }
+        }
+    }
+}

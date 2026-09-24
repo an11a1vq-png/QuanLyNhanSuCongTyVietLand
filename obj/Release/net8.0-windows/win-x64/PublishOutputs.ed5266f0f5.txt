@@ -1,0 +1,9 @@
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\xuatapp\VietLandHR.pdb
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\xuatapp\D3DCompiler_47_cor3.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\xuatapp\PenImc_cor3.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\xuatapp\PresentationNative_cor3.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\xuatapp\vcruntime140_cor3.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\xuatapp\wpfgfx_cor3.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\xuatapp\libHarfBuzzSharp.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\xuatapp\libSkiaSharp.dll
+D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\xuatapp\VietLandHR.exe

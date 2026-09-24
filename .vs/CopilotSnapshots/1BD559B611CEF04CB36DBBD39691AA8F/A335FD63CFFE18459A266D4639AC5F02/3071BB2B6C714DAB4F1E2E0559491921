@@ -1,0 +1,39 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace testai.Forms.Payroll
+{
+    public partial class FrmPayroll : Form
+    {
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblTitle;
+        private Guna.UI2.WinForms.Guna2DateTimePicker dtpMonth;
+        private Guna.UI2.WinForms.Guna2Button btnLoad;
+        private Guna.UI2.WinForms.Guna2DataGridView dgvList;
+
+        public FrmPayroll()
+        {
+            InitializeComponent();
+        }
+
+        private async void btnLoad_Click(object? sender, EventArgs e)
+        {
+            try
+            {
+                var bll = new BLL.PayrollBLL();
+                var list = await bll.GetByMonthAsync(dtpMonth.Value);
+                dgvList.DataSource = list;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi tải bảng lương: " + ex.Message);
+            }
+        }
+    }
+}

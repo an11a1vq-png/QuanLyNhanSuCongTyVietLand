@@ -1,0 +1,44 @@
+﻿using System;
+using Supabase.Postgrest.Models;
+using Postgrest.Attributes;
+
+namespace testai.DTOs
+{
+    /// <summary>
+    /// DTO mapping với bảng Employees trên Supabase
+    /// Đại diện cho thông tin nhân viên
+    /// </summary>
+    [Serializable]
+    public class EmployeeDTO : BaseModel
+    {
+        [Postgrest.Attributes.Column("employee_id")]
+        public int EmployeeId { get; set; }
+
+        [Postgrest.Attributes.Column("employee_code")]
+        public string EmployeeCode { get; set; }
+
+        [Postgrest.Attributes.Column("full_name")]
+        public string FullName { get; set; }
+
+        [Postgrest.Attributes.Column("gender")]
+        public string Gender { get; set; }
+
+        [Postgrest.Attributes.Column("birth_date")]
+        public DateTime BirthDate { get; set; }
+
+        [Postgrest.Attributes.Column("phone")]
+        public string Phone { get; set; }
+
+        [Postgrest.Attributes.Column("email")]
+        public string Email { get; set; }
+
+        [Postgrest.Attributes.Column("department_id")]
+        public int DepartmentId { get; set; }
+
+        [Postgrest.Attributes.Column("position_id")]
+        public int PositionId { get; set; }
+
+        [Postgrest.Attributes.Column("status")]
+        public string Status { get; set; } // Active, Resigned
+    }
+}

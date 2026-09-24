@@ -1,0 +1,32 @@
+﻿using System;
+using Supabase.Postgrest.Models;
+using Postgrest.Attributes;
+
+namespace testai.DTOs
+{
+    /// <summary>
+    /// DTO mapping với bảng Attendance trên Supabase
+    /// Đại diện cho thông tin chấm công nhân viên
+    /// </summary>
+    [Serializable]
+    public class AttendanceDTO : BaseModel
+    {
+        [Postgrest.Attributes.Column("attendance_id")]
+        public int AttendanceId { get; set; }
+
+        [Postgrest.Attributes.Column("employee_id")]
+        public int EmployeeId { get; set; }
+
+        [Postgrest.Attributes.Column("work_date")]
+        public DateTime WorkDate { get; set; }
+
+        [Postgrest.Attributes.Column("check_in")]
+        public DateTime? CheckIn { get; set; }
+
+        [Postgrest.Attributes.Column("check_out")]
+        public DateTime? CheckOut { get; set; }
+
+        [Postgrest.Attributes.Column("status")]
+        public string Status { get; set; } // Đúng giờ, Muộn, Về sớm
+    }
+}

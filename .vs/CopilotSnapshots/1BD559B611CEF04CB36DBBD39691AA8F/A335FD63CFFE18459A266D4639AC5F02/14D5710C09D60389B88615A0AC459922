@@ -1,0 +1,64 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace testai.Forms.Employees
+{
+    public partial class FrmEmployeeList : Form
+    {
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblTitle;
+        private Guna.UI2.WinForms.Guna2Button btnAdd;
+        private Guna.UI2.WinForms.Guna2TextBox txtSearch;
+        private Guna.UI2.WinForms.Guna2DataGridView dgvList;
+
+        public FrmEmployeeList()
+        {
+            InitializeComponent();
+            LoadData();
+            dgvList.CellDoubleClick += DgvList_CellDoubleClick;
+        }
+
+        private async void LoadData()
+        {
+            try
+            {
+                var bll = new BLL.EmployeeBLL();
+                var list = await bll.GetAllAsync();
+                dgvList.DataSource = list;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi tải nhân viên: " + ex.Message);
+            }
+        }
+
+        private void btnAdd_Click(object? sender, EventArgs e)
+        {
+            var frm = new FrmEmployeeDetail();
+            frm.ShowDialog();
+            LoadData();
+        }
+
+        private void DgvList_CellDoubleClick(object? sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex < 0) return;
+            var row = dgvList.Rows[e.RowIndex].DataBoundItem;
+            if (row == null) return;
+
+            // Assuming bound to EmployeeDTO
+            var emp = row as DTOs.EmployeeDTO;
+            if (emp == null) return;
+
+            var frm = new FrmEmployeeDetail();
+            // You may add a constructor or property to pass employee id
+            frm.ShowDialog();
+            LoadData();
+        }
+    }
+}

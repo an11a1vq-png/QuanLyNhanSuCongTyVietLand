@@ -1,0 +1,68 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace testai.Forms.Attendance
+{
+    public partial class FrmAttendance : Form
+    {
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblTitle;
+        private Guna.UI2.WinForms.Guna2Button btnCheckIn;
+        private Guna.UI2.WinForms.Guna2Button btnCheckOut;
+        private Guna.UI2.WinForms.Guna2DataGridView dgvList;
+
+        public FrmAttendance()
+        {
+            InitializeComponent();
+            LoadData();
+        }
+
+        private async void LoadData()
+        {
+            try
+            {
+                var bll = new BLL.AttendanceBLL();
+                var list = await bll.GetByUserAsync(SessionManager.CurrentAccount?.UserId ?? Guid.Empty);
+                dgvList.DataSource = list;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi tải dữ liệu chấm công: " + ex.Message);
+            }
+        }
+
+        private async void btnCheckIn_Click(object? sender, EventArgs e)
+        {
+            try
+            {
+                var bll = new BLL.AttendanceBLL();
+                await bll.CheckInAsync(SessionManager.CurrentAccount?.UserId ?? Guid.Empty);
+                LoadData();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi: " + ex.Message);
+            }
+        }
+
+        private async void btnCheckOut_Click(object? sender, EventArgs e)
+        {
+            try
+            {
+                var bll = new BLL.AttendanceBLL();
+                await bll.CheckOutAsync(SessionManager.CurrentAccount?.UserId ?? Guid.Empty);
+                LoadData();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi: " + ex.Message);
+            }
+        }
+    }
+}

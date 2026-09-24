@@ -1,0 +1,44 @@
+﻿using System;
+using Supabase.Postgrest.Models;
+using Postgrest.Attributes;
+
+namespace testai.DTOs
+{
+    /// <summary>
+    /// DTO mapping với bảng Payrolls trên Supabase
+    /// Đại diện cho bảng lương nhân viên
+    /// </summary>
+    [Serializable]
+    public class PayrollDTO : BaseModel
+    {
+        [Postgrest.Attributes.Column("payroll_id")]
+        public int PayrollId { get; set; }
+
+        [Postgrest.Attributes.Column("employee_id")]
+        public int EmployeeId { get; set; }
+
+        [Postgrest.Attributes.Column("month")]
+        public int Month { get; set; }
+
+        [Postgrest.Attributes.Column("year")]
+        public int Year { get; set; }
+
+        [Postgrest.Attributes.Column("working_days")]
+        public decimal WorkingDays { get; set; }
+
+        [Postgrest.Attributes.Column("leave_days")]
+        public decimal LeaveDays { get; set; }
+
+        [Postgrest.Attributes.Column("base_salary")]
+        public decimal BaseSalary { get; set; }
+
+        [Postgrest.Attributes.Column("bonus")]
+        public decimal Bonus { get; set; }
+
+        [Postgrest.Attributes.Column("deduction")]
+        public decimal Deduction { get; set; }
+
+        [Postgrest.Attributes.Column("net_salary")]
+        public decimal NetSalary { get; set; }
+    }
+}

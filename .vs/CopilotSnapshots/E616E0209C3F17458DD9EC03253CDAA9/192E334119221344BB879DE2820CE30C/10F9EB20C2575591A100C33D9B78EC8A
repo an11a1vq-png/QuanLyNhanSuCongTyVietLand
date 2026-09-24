@@ -1,0 +1,23 @@
+﻿using System;
+
+namespace testai.DTOs
+{
+    /// <summary>
+    /// DTO mapping với bảng Payrolls trên Supabase
+    /// Đại diện cho bảng lương nhân viên
+    /// </summary>
+    [Serializable]
+    public class PayrollDTO
+    {
+        public int PayrollId { get; set; }
+        public int EmployeeId { get; set; }
+        public int Month { get; set; }
+        public int Year { get; set; }
+        public decimal WorkingDays { get; set; }
+        public decimal LeaveDays { get; set; }
+        public decimal BaseSalary { get; set; }
+        public decimal Bonus { get; set; }
+        public decimal Deduction { get; set; }
+        public decimal NetSalary { get; set; }
+    }
+}

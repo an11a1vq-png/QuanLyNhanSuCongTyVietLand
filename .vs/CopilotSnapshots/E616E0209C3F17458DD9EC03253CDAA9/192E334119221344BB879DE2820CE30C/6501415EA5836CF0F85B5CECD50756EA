@@ -1,0 +1,19 @@
+﻿using System;
+using Supabase.Postgrest.Models;
+
+namespace testai.DTOs
+{
+    /// <summary>
+    /// DTO mapping với bảng RegistrationRequests trên Supabase
+    /// </summary>
+    [Serializable]
+    public class RegistrationRequestDTO : BaseModel
+    {
+        public int RequestId { get; set; }
+        public string Username { get; set; }
+        public string PasswordHash { get; set; }
+        public string FullName { get; set; }
+        public string Status { get; set; }
+        public DateTime CreatedAt { get; set; }
+    }
+}

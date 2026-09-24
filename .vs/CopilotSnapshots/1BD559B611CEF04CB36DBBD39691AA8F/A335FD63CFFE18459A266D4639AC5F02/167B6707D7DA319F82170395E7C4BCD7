@@ -1,0 +1,55 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace testai.Forms
+{
+    public partial class FrmDashboard : Form
+    {
+        // Controls
+        private Guna.UI2.WinForms.Guna2Panel pnlSidebar;
+        private Guna.UI2.WinForms.Guna2Button btnNavAccounts;
+        private Guna.UI2.WinForms.Guna2Button btnNavEmployees;
+        private Guna.UI2.WinForms.Guna2Panel topBar;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblWelcome;
+        private Guna.UI2.WinForms.Guna2Button btnLogout;
+
+        public FrmDashboard()
+        {
+            InitializeComponent();
+            LoadSessionInfo();
+        }
+
+        private void LoadSessionInfo()
+        {
+            if (SessionManager.CurrentAccount != null)
+            {
+                var username = SessionManager.CurrentAccount.Username;
+                var role = SessionManager.CurrentRoleName ?? "Employee";
+                lblWelcome.Text = $"Xin chào, {username} ({role})";
+
+                // if need to enable admin navigation, update button visibility
+                btnNavAccounts.Visible = SessionManager.IsAdmin;
+            }
+            else
+            {
+                lblWelcome.Text = "Xin chào";
+            }
+        }
+
+        private async void btnLogout_Click(object? sender, EventArgs e)
+        {
+            var bll = new BLL.AccountBLL();
+            await bll.LogoutAsync();
+            SessionManager.ClearSession();
+            this.Close();
+            Application.Restart();
+        }
+    }
+}

@@ -1,0 +1,34 @@
+﻿using System;
+using Supabase.Postgrest.Models;
+
+namespace testai.DTOs
+{
+    /// <summary>
+    /// DTO mapping với bảng LeaveRequests trên Supabase
+    /// Đại diện cho đơn xin nghỉ phép của nhân viên
+    /// </summary>
+    [Serializable]
+    public class LeaveRequestDTO : BaseModel
+    {
+        [Postgrest.Attributes.Column("leave_id")]
+        public int LeaveId { get; set; }
+
+        [Postgrest.Attributes.Column("employee_id")]
+        public int EmployeeId { get; set; }
+
+        [Postgrest.Attributes.Column("start_date")]
+        public DateTime StartDate { get; set; }
+
+        [Postgrest.Attributes.Column("end_date")]
+        public DateTime EndDate { get; set; }
+
+        [Postgrest.Attributes.Column("reason")]
+        public string Reason { get; set; }
+
+        [Postgrest.Attributes.Column("status")]
+        public string Status { get; set; } // Pending, Approved, Rejected
+
+        [Postgrest.Attributes.Column("approved_by")]
+        public int ApprovedBy { get; set; }
+    }
+}

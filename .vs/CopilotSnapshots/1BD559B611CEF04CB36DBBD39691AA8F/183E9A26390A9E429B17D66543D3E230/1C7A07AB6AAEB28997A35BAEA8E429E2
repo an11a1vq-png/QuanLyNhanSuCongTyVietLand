@@ -1,0 +1,91 @@
+﻿namespace testai.Forms
+{
+    partial class FrmDashboard
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1000, 650);
+            this.Text = "Dashboard";
+
+            // Left panel (sidebar) using Guna2Panel
+            this.pnlSidebar = new Guna.UI2.WinForms.Guna2Panel();
+            this.pnlSidebar.Location = new System.Drawing.Point(0, 0);
+            this.pnlSidebar.Name = "pnlSidebar";
+            this.pnlSidebar.Size = new System.Drawing.Size(220, 650);
+            this.pnlSidebar.FillColor = System.Drawing.Color.FromArgb(45, 45, 48);
+
+            // Buttons on sidebar
+            this.btnNavAccounts = new Guna.UI2.WinForms.Guna2Button();
+            this.btnNavAccounts.Text = "Accounts";
+            this.btnNavAccounts.Location = new System.Drawing.Point(10, 80);
+            this.btnNavAccounts.Size = new System.Drawing.Size(200, 36);
+            this.btnNavAccounts.FillColor = System.Drawing.Color.FromArgb(64, 64, 64);
+            this.btnNavAccounts.ForeColor = System.Drawing.Color.White;
+
+            this.btnNavEmployees = new Guna.UI2.WinForms.Guna2Button();
+            this.btnNavEmployees.Text = "Employees";
+            this.btnNavEmployees.Location = new System.Drawing.Point(10, 130);
+            this.btnNavEmployees.Size = new System.Drawing.Size(200, 36);
+            this.btnNavEmployees.FillColor = System.Drawing.Color.FromArgb(64, 64, 64);
+            this.btnNavEmployees.ForeColor = System.Drawing.Color.White;
+
+            this.pnlSidebar.Controls.Add(this.btnNavAccounts);
+            this.pnlSidebar.Controls.Add(this.btnNavEmployees);
+            this.Controls.Add(this.pnlSidebar);
+
+            // Top bar
+            this.topBar = new Guna.UI2.WinForms.Guna2Panel();
+            this.topBar.Location = new System.Drawing.Point(220, 0);
+            this.topBar.Name = "topBar";
+            this.topBar.Size = new System.Drawing.Size(780, 60);
+            this.topBar.FillColor = System.Drawing.Color.WhiteSmoke;
+
+            // Welcome label (Guna2HtmlLabel)
+            this.lblWelcome = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.lblWelcome.Location = new System.Drawing.Point(240, 18);
+            this.lblWelcome.Name = "lblWelcome";
+            this.lblWelcome.Size = new System.Drawing.Size(200, 21);
+            this.lblWelcome.Text = "Xin chào, [Tên người dùng]";
+
+            // Logout button (Guna2Button)
+            this.btnLogout = new Guna.UI2.WinForms.Guna2Button();
+            this.btnLogout.Location = new System.Drawing.Point(880, 15);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(90, 30);
+            this.btnLogout.Text = "Đăng xuất";
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
+
+            this.Controls.Add(this.topBar);
+            this.Controls.Add(this.lblWelcome);
+            this.Controls.Add(this.btnLogout);
+        }
+
+        #endregion
+    }
+}

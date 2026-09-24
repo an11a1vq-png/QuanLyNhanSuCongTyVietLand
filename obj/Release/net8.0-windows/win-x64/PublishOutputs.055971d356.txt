@@ -1,0 +1,9 @@
+D:\demo\new\xuat\VietLandHR.pdb
+D:\demo\new\xuat\D3DCompiler_47_cor3.dll
+D:\demo\new\xuat\PenImc_cor3.dll
+D:\demo\new\xuat\PresentationNative_cor3.dll
+D:\demo\new\xuat\vcruntime140_cor3.dll
+D:\demo\new\xuat\wpfgfx_cor3.dll
+D:\demo\new\xuat\libHarfBuzzSharp.dll
+D:\demo\new\xuat\libSkiaSharp.dll
+D:\demo\new\xuat\VietLandHR.exe

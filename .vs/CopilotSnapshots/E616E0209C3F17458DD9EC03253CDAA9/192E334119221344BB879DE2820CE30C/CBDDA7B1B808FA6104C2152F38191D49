@@ -1,0 +1,17 @@
+﻿using System;
+
+namespace testai.DTOs
+{
+    /// <summary>
+    /// DTO mapping với bảng Departments trên Supabase
+    /// Đại diện cho các phòng ban trong công ty
+    /// </summary>
+    [Serializable]
+    public class DepartmentDTO
+    {
+        public int DepartmentId { get; set; }
+        public string DepartmentName { get; set; }
+        public int ManagerId { get; set; }
+        public DateTime CreatedAt { get; set; }
+    }
+}

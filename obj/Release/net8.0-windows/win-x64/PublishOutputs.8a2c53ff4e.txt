@@ -1,0 +1,9 @@
+D:\demo\sieuappprovip\VietLandHR.pdb
+D:\demo\sieuappprovip\D3DCompiler_47_cor3.dll
+D:\demo\sieuappprovip\PenImc_cor3.dll
+D:\demo\sieuappprovip\PresentationNative_cor3.dll
+D:\demo\sieuappprovip\vcruntime140_cor3.dll
+D:\demo\sieuappprovip\wpfgfx_cor3.dll
+D:\demo\sieuappprovip\libHarfBuzzSharp.dll
+D:\demo\sieuappprovip\libSkiaSharp.dll
+D:\demo\sieuappprovip\VietLandHR.exe

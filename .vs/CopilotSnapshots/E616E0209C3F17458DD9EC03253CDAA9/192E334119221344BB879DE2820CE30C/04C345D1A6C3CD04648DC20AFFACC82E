@@ -1,0 +1,16 @@
+﻿using System;
+using Supabase.Postgrest.Models;
+
+namespace testai.DTOs
+{
+    /// <summary>
+    /// DTO mapping với bảng Positions trên Supabase
+    /// </summary>
+    [Serializable]
+    public class PositionDTO : BaseModel
+    {
+        public int PositionId { get; set; }
+        public string PositionName { get; set; }
+        public decimal BaseSalary { get; set; }
+    }
+}

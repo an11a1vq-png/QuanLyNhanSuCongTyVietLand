@@ -1,0 +1,18 @@
+﻿using System;
+
+namespace testai.DTOs
+{
+    /// <summary>
+    /// DTO mapping với bảng Positions trên Supabase
+    /// Đại diện cho các vị trí công việc (Quản lý, Nhân viên, ...)
+    /// </summary>
+    [Serializable]
+    public class PositionDTO
+    {
+        public int Id { get; set; }
+        public string PositionName { get; set; }
+        public string Description { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public DateTime UpdatedAt { get; set; }
+    }
+}

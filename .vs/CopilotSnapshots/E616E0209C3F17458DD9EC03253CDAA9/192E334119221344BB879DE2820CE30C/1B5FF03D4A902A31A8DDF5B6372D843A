@@ -1,0 +1,20 @@
+﻿using System;
+using Supabase.Postgrest.Models;
+
+namespace testai.DTOs
+{
+    /// <summary>
+    /// DTO mapping với bảng LeaveRequests trên Supabase
+    /// </summary>
+    [Serializable]
+    public class LeaveRequestDTO : BaseModel
+    {
+        public int LeaveId { get; set; }
+        public int EmployeeId { get; set; }
+        public DateTime StartDate { get; set; }
+        public DateTime EndDate { get; set; }
+        public string Reason { get; set; }
+        public string Status { get; set; }
+        public int ApprovedBy { get; set; }
+    }
+}

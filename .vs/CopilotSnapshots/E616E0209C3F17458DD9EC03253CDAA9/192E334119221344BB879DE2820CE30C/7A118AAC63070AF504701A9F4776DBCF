@@ -1,0 +1,32 @@
+﻿using System;
+using Supabase.Postgrest.Models;
+using Postgrest.Attributes;
+
+namespace testai.DTOs
+{
+    /// <summary>
+    /// DTO mapping với bảng Accounts trên Supabase
+    /// Đại diện cho tài khoản đăng nhập của nhân viên
+    /// </summary>
+    [Serializable]
+    public class AccountDTO : BaseModel
+    {
+        [Postgrest.Attributes.Column("account_id")]
+        public int AccountId { get; set; }
+
+        [Postgrest.Attributes.Column("username")]
+        public string Username { get; set; }
+
+        [Postgrest.Attributes.Column("password_hash")]
+        public string PasswordHash { get; set; }
+
+        [Postgrest.Attributes.Column("role_id")]
+        public int RoleId { get; set; }
+
+        [Postgrest.Attributes.Column("employee_id")]
+        public int EmployeeId { get; set; }
+
+        [Postgrest.Attributes.Column("is_active")]
+        public bool IsActive { get; set; }
+    }
+}

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>D:\demo\new\Tổng Hợp Báo Cáo Đồ Án 1 Nhóm 3\Code Dự Án Quản Lí Nhân Sự Công Ty VietLand\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="GUI\Dialogs\DanhSachNhanVienPhongBanDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\Dialogs\DoiMatKhauDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\Dialogs\GopYDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\Dialogs\HopDongDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\Dialogs\NhanVienDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\Dialogs\PhongBanDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\Dialogs\SuaChamCongDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\Dialogs\TaiKhoanDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\EmployeeDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\MainDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\Pages\BaoCaoPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Pages\ChamCongPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Pages\DashboardHomePage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Pages\DuyetDangKyPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Pages\Employee\EmpChamCongPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Pages\Employee\EmpGopYPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Pages\Employee\EmpHopDongPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Pages\Employee\EmpLuongPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Pages\Employee\EmpNghiPhepPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Pages\Employee\EmpThongTinCaNhanPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Pages\GopYPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Pages\HopDongPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Pages\NghiPhepPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Pages\NhanVienPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Pages\PhongBanPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Pages\TaiKhoanPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Pages\TinhLuongPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\RegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

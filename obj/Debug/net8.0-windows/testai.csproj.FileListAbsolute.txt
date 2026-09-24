@@ -1,0 +1,152 @@
+D:\demo\new\testai\obj\Debug\net8.0-windows\testai.csproj.AssemblyReference.cache
+D:\demo\new\testai\obj\Debug\net8.0-windows\testai.csproj.GenerateResource.cache
+D:\demo\new\testai\obj\Debug\net8.0-windows\testai.GeneratedMSBuildEditorConfig.editorconfig
+D:\demo\new\testai\obj\Debug\net8.0-windows\testai.AssemblyInfoInputs.cache
+D:\demo\new\testai\obj\Debug\net8.0-windows\testai.AssemblyInfo.cs
+D:\demo\new\testai\obj\Debug\net8.0-windows\testai.csproj.CoreCompileInputs.cache
+D:\demo\new\testai\bin\Debug\net8.0-windows\testai.exe
+D:\demo\new\testai\bin\Debug\net8.0-windows\testai.deps.json
+D:\demo\new\testai\bin\Debug\net8.0-windows\testai.runtimeconfig.json
+D:\demo\new\testai\bin\Debug\net8.0-windows\testai.dll
+D:\demo\new\testai\bin\Debug\net8.0-windows\testai.pdb
+D:\demo\new\testai\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+D:\demo\new\testai\bin\Debug\net8.0-windows\Guna.UI2.dll
+D:\demo\new\testai\bin\Debug\net8.0-windows\MailKit.dll
+D:\demo\new\testai\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\demo\new\testai\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\demo\new\testai\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\demo\new\testai\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\demo\new\testai\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\demo\new\testai\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\demo\new\testai\bin\Debug\net8.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+D:\demo\new\testai\bin\Debug\net8.0-windows\MimeKit.dll
+D:\demo\new\testai\bin\Debug\net8.0-windows\MimeMapping.dll
+D:\demo\new\testai\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+D:\demo\new\testai\bin\Debug\net8.0-windows\Supabase.dll
+D:\demo\new\testai\bin\Debug\net8.0-windows\Supabase.Core.dll
+D:\demo\new\testai\bin\Debug\net8.0-windows\Supabase.Functions.dll
+D:\demo\new\testai\bin\Debug\net8.0-windows\Supabase.Gotrue.dll
+D:\demo\new\testai\bin\Debug\net8.0-windows\Supabase.Postgrest.dll
+D:\demo\new\testai\bin\Debug\net8.0-windows\Supabase.Realtime.dll
+D:\demo\new\testai\bin\Debug\net8.0-windows\Supabase.Storage.dll
+D:\demo\new\testai\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\demo\new\testai\bin\Debug\net8.0-windows\System.Management.dll
+D:\demo\new\testai\bin\Debug\net8.0-windows\System.Reactive.dll
+D:\demo\new\testai\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+D:\demo\new\testai\bin\Debug\net8.0-windows\Websocket.Client.dll
+D:\demo\new\testai\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+D:\demo\new\testai\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\demo\new\testai\obj\Debug\net8.0-windows\testai.csproj.Up2Date
+D:\demo\new\testai\obj\Debug\net8.0-windows\testai.dll
+D:\demo\new\testai\obj\Debug\net8.0-windows\refint\testai.dll
+D:\demo\new\testai\obj\Debug\net8.0-windows\testai.pdb
+D:\demo\new\testai\obj\Debug\net8.0-windows\testai.genruntimeconfig.cache
+D:\demo\new\testai\obj\Debug\net8.0-windows\ref\testai.dll
+D:\demo\new\testai\obj\Debug\net8.0-windows\testai.Forms.Admin.FrmAccounts.resources
+D:\demo\new\testai\obj\Debug\net8.0-windows\testai.Forms.Admin.FrmDepartments.resources
+D:\demo\new\testai\obj\Debug\net8.0-windows\testai.Forms.Admin.FrmPositions.resources
+D:\demo\new\testai\obj\Debug\net8.0-windows\testai.Forms.Attendance.FrmAttendance.resources
+D:\demo\new\testai\obj\Debug\net8.0-windows\testai.Forms.Employees.FrmEmployeeDetail.resources
+D:\demo\new\testai\obj\Debug\net8.0-windows\testai.Forms.Employees.FrmEmployeeList.resources
+D:\demo\new\testai\obj\Debug\net8.0-windows\testai.Forms.FrmDashboard.resources
+D:\demo\new\testai\obj\Debug\net8.0-windows\testai.Forms.FrmLogin.resources
+D:\demo\new\testai\obj\Debug\net8.0-windows\testai.Forms.LeaveRequests.FrmLeaveRequestForm.resources
+D:\demo\new\testai\obj\Debug\net8.0-windows\testai.Forms.LeaveRequests.FrmLeaveRequestList.resources
+D:\demo\new\testai\obj\Debug\net8.0-windows\testai.Forms.Payroll.FrmPayroll.resources
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\testai.exe
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\testai.deps.json
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\testai.runtimeconfig.json
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\testai.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\testai.pdb
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\Guna.UI2.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\MailKit.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\MimeKit.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\MimeMapping.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\Supabase.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\Supabase.Core.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\Supabase.Functions.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\Supabase.Gotrue.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\Supabase.Postgrest.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\Supabase.Realtime.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\Supabase.Storage.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\System.Management.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\System.Reactive.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\Websocket.Client.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.csproj.AssemblyReference.cache
+D:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.csproj.GenerateResource.cache
+D:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.GeneratedMSBuildEditorConfig.editorconfig
+D:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.AssemblyInfoInputs.cache
+D:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.AssemblyInfo.cs
+D:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.csproj.CoreCompileInputs.cache
+D:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.csproj.Up2Date
+D:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.dll
+D:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\refint\testai.dll
+D:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.pdb
+D:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.genruntimeconfig.cache
+D:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\ref\testai.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\HarfBuzzSharp.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\LiveChartsCore.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\LiveChartsCore.SkiaSharpView.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\LiveChartsCore.SkiaSharpView.WinForms.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\OpenTK.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\OpenTK.GLControl.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\SkiaSharp.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\SkiaSharp.HarfBuzz.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\SkiaSharp.Views.Desktop.Common.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\SkiaSharp.Views.WindowsForms.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\runtimes\osx\native\libHarfBuzzSharp.dylib
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\runtimes\win-x64\native\libHarfBuzzSharp.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\runtimes\win-x86\native\libHarfBuzzSharp.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\runtimes\osx\native\libSkiaSharp.dylib
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\runtimes\win-arm64\native\libSkiaSharp.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\runtimes\win-x64\native\libSkiaSharp.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\runtimes\win-x86\native\libSkiaSharp.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\BCrypt-Net-Next.dll
+D:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.GUI.Dialogs.NhanVienDialog.resources
+D:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.GUI.EmployeeDashboard.resources
+D:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.GUI.LoginForm.resources
+D:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.GUI.MainDashboard.resources
+D:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.GUI.Pages.BaoCaoPage.resources
+D:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.GUI.Pages.ChamCongPage.resources
+D:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.GUI.Pages.DashboardHomePage.resources
+D:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.GUI.Pages.NghiPhepPage.resources
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\ClosedXML.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\ExcelNumberFormat.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\Irony.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\SixLabors.Fonts.dll
+D:\demo\new\testai - Sao chép\bin\Debug\net8.0-windows\XLParser.dll
+D:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.GUI.Dialogs.HopDongDialog.resources
+D:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.GUI.Dialogs.PhongBanDialog.resources
+D:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.GUI.Dialogs.TaiKhoanDialog.resources
+D:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.GUI.Dialogs.GopYDialog.resources
+D:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.GUI.RegisterForm.resources
+D:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.GUI.Pages.DuyetDangKyPage.resources
+D:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.GUI.Pages.TinhLuongPage.resources
+D:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.GUI.Pages.TaiKhoanPage.resources
+D:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.GUI.Pages.HopDongPage.resources
+D:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.GUI.Pages.NhanVienPage.resources
+D:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.GUI.Pages.PhongBanPage.resources
+D:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.GUI.Pages.GopYPage.resources
+d:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.GUI.Pages.Employee.EmpGopYPage.resources
+d:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.GUI.Pages.Employee.EmpNghiPhepPage.resources
+d:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.GUI.Pages.Employee.EmpHopDongPage.resources
+d:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.GUI.Pages.Employee.EmpLuongPage.resources
+d:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.GUI.Pages.Employee.EmpThongTinCaNhanPage.resources
+D:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.GUI.Dialogs.DoiMatKhauDialog.resources
+d:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.GUI.Pages.Employee.EmpChamCongPage.resources
+d:\demo\new\testai - Sao chép\obj\Debug\net8.0-windows\testai.GUI.Dialogs.SuaChamCongDialog.resources
